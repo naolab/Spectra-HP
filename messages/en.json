@@ -12,9 +12,9 @@
     "Features": {
         "title": "Powering the Next Gen of AI",
         "subtitle": "Spectra provides the visual context your AI agents need to understand and interact with your workflow.",
-        "discord": {
-            "title": "Discord-like GUI",
-            "description": "Intuitive interface for selecting windows and screens. Just like sharing your screen on Discord, but for AI."
+        "gui": {
+            "title": "Intuitive GUI",
+            "description": "Familiar interface for selecting windows and screens, optimized for AI."
         },
         "mcp": {
             "title": "MCP Server Integration",

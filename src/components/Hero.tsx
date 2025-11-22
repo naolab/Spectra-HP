@@ -1,10 +1,26 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import LanguageSwitcher from './LanguageSwitcher';
 
-const Hero = () => {
-  const t = useTranslations('Hero');
+async function getLatestReleaseUrl() {
+  try {
+    const res = await fetch('https://api.github.com/repos/naolab/Spectra/releases/latest', {
+      next: { revalidate: 3600 }
+    });
+    if (!res.ok) return 'https://github.com/naolab/Spectra/releases';
+    const data = await res.json();
+    const asset = data.assets.find((a: any) => a.name.endsWith('.dmg')) ||
+      data.assets.find((a: any) => a.name.endsWith('.zip'));
+    return asset ? asset.browser_download_url : data.html_url;
+  } catch (e) {
+    return 'https://github.com/naolab/Spectra/releases';
+  }
+}
+
+const Hero = async () => {
+  const t = await getTranslations('Hero');
+  const downloadUrl = await getLatestReleaseUrl();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
@@ -36,14 +52,22 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition flex items-center justify-center gap-2">
+            <a
+              href={downloadUrl}
+              className="px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-gray-200 transition flex items-center justify-center gap-2"
+            >
               <Download size={20} />
               {t('download')}
-            </button>
-            <button className="px-8 py-4 bg-white/10 text-white rounded-full font-bold hover:bg-white/20 transition backdrop-blur-sm flex items-center justify-center gap-2">
+            </a>
+            <a
+              href="https://github.com/naolab/Spectra"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white/10 text-white rounded-full font-bold hover:bg-white/20 transition backdrop-blur-sm flex items-center justify-center gap-2"
+            >
               {t('github')}
               <ArrowRight size={20} />
-            </button>
+            </a>
           </div>
 
           <div className="flex items-center gap-4 text-sm text-gray-500">
@@ -58,22 +82,14 @@ const Hero = () => {
 
         <div className="relative">
           {/* Hero Image */}
-          <div className="aspect-video rounded-xl bg-gradient-to-br from-gray-800 to-gray-900 border border-white/10 shadow-2xl flex items-center justify-center relative overflow-hidden group">
+          <div className="relative group flex justify-center z-20">
             <img
-              src="/hero.png"
+              src="/herod.png"
               alt="Spectra Interface"
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-500"
+              className="w-full md:w-[150%] md:max-w-none translate-x-0 md:translate-x-20 object-contain opacity-90 group-hover:opacity-100 transition duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-blue-500/10 pointer-events-none" />
           </div>
 
-          {/* Floating Elements */}
-          <div className="absolute -bottom-6 -left-6 p-4 bg-black/80 backdrop-blur-md border border-white/10 rounded-lg shadow-xl">
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 bg-green-500 rounded-full animate-ping" />
-              <span className="text-sm font-mono text-green-400">{t('mcpActive')}</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

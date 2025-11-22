@@ -17,7 +17,7 @@ const Footer = () => {
                     <a href="https://github.com/naolab/Spectra" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                         <Github size={24} />
                     </a>
-                    <a href="#" className="hover:text-white transition">
+                    <a href="https://x.com/nao_u7589422" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
                         <Twitter size={24} />
                     </a>
                 </div>

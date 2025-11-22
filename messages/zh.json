@@ -12,9 +12,9 @@
     "Features": {
         "title": "赋能下一代 AI",
         "subtitle": "Spectra 为您的 AI 代理提供理解和交互工作流所需的视觉上下文。",
-        "discord": {
-            "title": "类 Discord 界面",
-            "description": "直观的窗口和屏幕选择界面。就像在 Discord 上分享屏幕一样，但是是给 AI 看的。"
+        "gui": {
+            "title": "直观的界面",
+            "description": "直观的窗口和屏幕选择界面。就像分享屏幕一样简单，专为 AI 优化。"
         },
         "mcp": {
             "title": "MCP 服务器集成",

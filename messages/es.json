@@ -12,9 +12,9 @@
     "Features": {
         "title": "Potenciando la Próxima Generación de IA",
         "subtitle": "Spectra proporciona el contexto visual que tus agentes de IA necesitan para entender e interactuar con tu flujo de trabajo.",
-        "discord": {
-            "title": "GUI estilo Discord",
-            "description": "Interfaz intuitiva para seleccionar ventanas y pantallas. Como compartir tu pantalla en Discord, pero para IA."
+        "gui": {
+            "title": "Interfaz Intuitiva",
+            "description": "Interfaz familiar para seleccionar ventanas y pantallas, optimizada para IA."
         },
         "mcp": {
             "title": "Integración de Servidor MCP",

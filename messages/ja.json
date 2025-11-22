@@ -12,9 +12,9 @@
     "Features": {
         "title": "次世代AIをパワーアップ",
         "subtitle": "Spectraは、AIエージェントがあなたのワークフローを理解し対話するために必要な視覚的コンテキストを提供します。",
-        "discord": {
-            "title": "Discord風GUI",
-            "description": "ウィンドウや画面を選択するための直感的なインターフェース。Discordで画面共有するのと同じ感覚で、AIに共有できます。"
+        "gui": {
+            "title": "直感的なGUI",
+            "description": "ウィンドウや画面を選択するための直感的なインターフェース。画面共有するのと同じ感覚で、AIに共有できます。"
         },
         "mcp": {
             "title": "MCPサーバー統合",

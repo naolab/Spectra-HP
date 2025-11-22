@@ -8,8 +8,8 @@ const Features = () => {
     const features = [
         {
             icon: <Layers className="w-8 h-8 text-purple-500" />,
-            title: t('discord.title'),
-            description: t('discord.description')
+            title: t('gui.title'),
+            description: t('gui.description')
         },
         {
             icon: <Cpu className="w-8 h-8 text-blue-500" />,
