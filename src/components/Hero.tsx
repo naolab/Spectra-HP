@@ -1,26 +1,29 @@
-import React from 'react';
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import { ArrowRight, Download } from 'lucide-react';
-import { getTranslations } from 'next-intl/server';
+import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './LanguageSwitcher';
 
-async function getLatestReleaseUrl() {
-  try {
-    const res = await fetch('https://api.github.com/repos/naolab/Spectra/releases/latest', {
-      next: { revalidate: 3600 }
-    });
-    if (!res.ok) return 'https://github.com/naolab/Spectra/releases';
-    const data = await res.json();
-    const asset = data.assets.find((a: any) => a.name.endsWith('.dmg')) ||
-      data.assets.find((a: any) => a.name.endsWith('.zip'));
-    return asset ? asset.browser_download_url : data.html_url;
-  } catch (e) {
-    return 'https://github.com/naolab/Spectra/releases';
-  }
-}
+const Hero = () => {
+  const t = useTranslations('Hero');
+  const [downloadUrl, setDownloadUrl] = useState('https://github.com/naolab/Spectra/releases');
 
-const Hero = async () => {
-  const t = await getTranslations('Hero');
-  const downloadUrl = await getLatestReleaseUrl();
+  useEffect(() => {
+    async function fetchLatestRelease() {
+      try {
+        const res = await fetch('https://api.github.com/repos/naolab/Spectra/releases/latest');
+        if (!res.ok) return;
+        const data = await res.json();
+        const asset = data.assets.find((a: any) => a.name.endsWith('.dmg')) ||
+          data.assets.find((a: any) => a.name.endsWith('.zip'));
+        if (asset) setDownloadUrl(asset.browser_download_url);
+      } catch (e) {
+        // Keep default URL
+      }
+    }
+    fetchLatestRelease();
+  }, []);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black text-white">
