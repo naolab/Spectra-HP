@@ -1,0 +1,54 @@
+{
+    "Hero": {
+        "badge": "Disponible para macOS",
+        "title": "Spectra",
+        "subtitle": "El puente entre tu pantalla y los Agentes de IA.",
+        "tagline": "Ver. Seleccionar. Resolver.",
+        "download": "Descargar para macOS",
+        "github": "Ver en GitHub",
+        "supports": "Soporta:",
+        "mcpActive": "Servidor MCP Activo"
+    },
+    "Features": {
+        "title": "Potenciando la Próxima Generación de IA",
+        "subtitle": "Spectra proporciona el contexto visual que tus agentes de IA necesitan para entender e interactuar con tu flujo de trabajo.",
+        "discord": {
+            "title": "GUI estilo Discord",
+            "description": "Interfaz intuitiva para seleccionar ventanas y pantallas. Como compartir tu pantalla en Discord, pero para IA."
+        },
+        "mcp": {
+            "title": "Integración de Servidor MCP",
+            "description": "Se conecta perfectamente con clientes compatibles con Model Context Protocol. Tu IA ve lo que tú ves."
+        },
+        "multiClient": {
+            "title": "Soporte Multi-Cliente",
+            "description": "Funciona con Claude, Gemini, Codex y más. Una herramienta para gobernarlos a todos."
+        },
+        "native": {
+            "title": "Nativo de macOS",
+            "description": "Construido específicamente para macOS con una capa de captura Swift de alto rendimiento para baja latencia."
+        }
+    },
+    "HowItWorks": {
+        "title": "Cómo Funciona",
+        "subtitle": "Una tubería perfecta desde tu pantalla hasta el cerebro de la IA.",
+        "step1": {
+            "label": "01. SELECCIONAR",
+            "title": "Selección GUI",
+            "description": "Elige ventanas específicas o pantallas completas usando la interfaz basada en Electron."
+        },
+        "step2": {
+            "label": "02. CAPTURAR",
+            "title": "Servidor MCP",
+            "description": "El servidor Node.js recibe solicitudes y activa la capa de captura Swift."
+        },
+        "step3": {
+            "label": "03. ANALIZAR",
+            "title": "Cliente IA",
+            "description": "Claude, Gemini o Codex recibe la imagen y entiende tu contexto."
+        }
+    },
+    "Footer": {
+        "copyright": "© 2025 Spectra. Todos los derechos reservados."
+    }
+}

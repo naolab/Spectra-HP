@@ -1,0 +1,54 @@
+{
+    "Hero": {
+        "badge": "适用于 macOS",
+        "title": "Spectra",
+        "subtitle": "连接您的屏幕与 AI 代理的桥梁。",
+        "tagline": "看见。选择。解决。",
+        "download": "下载 macOS 版",
+        "github": "在 GitHub 上查看",
+        "supports": "支持：",
+        "mcpActive": "MCP 服务器活跃"
+    },
+    "Features": {
+        "title": "赋能下一代 AI",
+        "subtitle": "Spectra 为您的 AI 代理提供理解和交互工作流所需的视觉上下文。",
+        "discord": {
+            "title": "类 Discord 界面",
+            "description": "直观的窗口和屏幕选择界面。就像在 Discord 上分享屏幕一样，但是是给 AI 看的。"
+        },
+        "mcp": {
+            "title": "MCP 服务器集成",
+            "description": "与 Model Context Protocol 兼容的客户端无缝连接。您的 AI 能看到您所看到的。"
+        },
+        "multiClient": {
+            "title": "多客户端支持",
+            "description": "支持 Claude, Gemini, Codex 等。一站式解决方案。"
+        },
+        "native": {
+            "title": "macOS 原生",
+            "description": "专为 macOS 构建，具有高性能 Swift 捕获层，实现低延迟。"
+        }
+    },
+    "HowItWorks": {
+        "title": "工作原理",
+        "subtitle": "从您的屏幕到 AI 大脑的无缝管道。",
+        "step1": {
+            "label": "01. 选择",
+            "title": "GUI 选择",
+            "description": "使用基于 Electron 的界面选择特定窗口或整个显示器。"
+        },
+        "step2": {
+            "label": "02. 捕获",
+            "title": "MCP 服务器",
+            "description": "Node.js 服务器接收请求并触发 Swift 捕获层。"
+        },
+        "step3": {
+            "label": "03. 分析",
+            "title": "AI 客户端",
+            "description": "Claude, Gemini 或 Codex 接收图像并理解您的上下文。"
+        }
+    },
+    "Footer": {
+        "copyright": "© 2025 Spectra. 保留所有权利。"
+    }
+}

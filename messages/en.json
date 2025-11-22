@@ -1,0 +1,54 @@
+{
+    "Hero": {
+        "badge": "Available for macOS",
+        "title": "Spectra",
+        "subtitle": "The bridge between your screen and AI Agents.",
+        "tagline": "See. Select. Solve.",
+        "download": "Download for macOS",
+        "github": "View on GitHub",
+        "supports": "Supports:",
+        "mcpActive": "MCP Server Active"
+    },
+    "Features": {
+        "title": "Powering the Next Gen of AI",
+        "subtitle": "Spectra provides the visual context your AI agents need to understand and interact with your workflow.",
+        "discord": {
+            "title": "Discord-like GUI",
+            "description": "Intuitive interface for selecting windows and screens. Just like sharing your screen on Discord, but for AI."
+        },
+        "mcp": {
+            "title": "MCP Server Integration",
+            "description": "Seamlessly connects with Model Context Protocol compatible clients. Your AI sees what you see."
+        },
+        "multiClient": {
+            "title": "Multi-Client Support",
+            "description": "Works with Claude, Gemini, Codex, and more. One tool to rule them all."
+        },
+        "native": {
+            "title": "macOS Native",
+            "description": "Built specifically for macOS with high-performance Swift capture layer for low latency."
+        }
+    },
+    "HowItWorks": {
+        "title": "How It Works",
+        "subtitle": "A seamless pipeline from your screen to the AI's brain.",
+        "step1": {
+            "label": "01. SELECT",
+            "title": "GUI Selection",
+            "description": "Choose specific windows or entire displays using the Electron-based interface."
+        },
+        "step2": {
+            "label": "02. CAPTURE",
+            "title": "MCP Server",
+            "description": "The Node.js server receives requests and triggers the Swift capture layer."
+        },
+        "step3": {
+            "label": "03. ANALYZE",
+            "title": "AI Client",
+            "description": "Claude, Gemini, or Codex receives the image and understands your context."
+        }
+    },
+    "Footer": {
+        "copyright": "© 2025 Spectra. All rights reserved."
+    }
+}

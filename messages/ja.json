@@ -1,0 +1,54 @@
+{
+    "Hero": {
+        "badge": "macOS専用",
+        "title": "Spectra",
+        "subtitle": "画面とAIエージェントをつなぐ架け橋。",
+        "tagline": "見て、選んで、解決する。",
+        "download": "macOS版をダウンロード",
+        "github": "GitHubで見る",
+        "supports": "対応:",
+        "mcpActive": "MCPサーバー稼働中"
+    },
+    "Features": {
+        "title": "次世代AIをパワーアップ",
+        "subtitle": "Spectraは、AIエージェントがあなたのワークフローを理解し対話するために必要な視覚的コンテキストを提供します。",
+        "discord": {
+            "title": "Discord風GUI",
+            "description": "ウィンドウや画面を選択するための直感的なインターフェース。Discordで画面共有するのと同じ感覚で、AIに共有できます。"
+        },
+        "mcp": {
+            "title": "MCPサーバー統合",
+            "description": "Model Context Protocol互換クライアントとシームレスに接続。あなたが見ているものをAIも見ることができます。"
+        },
+        "multiClient": {
+            "title": "マルチクライアント対応",
+            "description": "Claude, Gemini, Codexなどに対応。これ一つで全てをカバーします。"
+        },
+        "native": {
+            "title": "macOSネイティブ",
+            "description": "macOS専用に設計され、高性能なSwiftキャプチャレイヤーにより低遅延を実現しています。"
+        }
+    },
+    "HowItWorks": {
+        "title": "仕組み",
+        "subtitle": "あなたの画面からAIの頭脳へ、シームレスなパイプライン。",
+        "step1": {
+            "label": "01. 選択",
+            "title": "GUI選択",
+            "description": "Electronベースのインターフェースを使用して、特定のウィンドウまたはディスプレイ全体を選択します。"
+        },
+        "step2": {
+            "label": "02. キャプチャ",
+            "title": "MCPサーバー",
+            "description": "Node.jsサーバーがリクエストを受け取り、Swiftキャプチャレイヤーをトリガーします。"
+        },
+        "step3": {
+            "label": "03. 分析",
+            "title": "AIクライアント",
+            "description": "Claude, Gemini, Codexが画像を受け取り、あなたのコンテキストを理解します。"
+        }
+    },
+    "Footer": {
+        "copyright": "© 2025 Spectra. All rights reserved."
+    }
+}
