@@ -10,7 +10,7 @@ export default function RootPage() {
     const supportedLocales = ['en', 'ja', 'es', 'zh'];
     const locale = supportedLocales.includes(userLang) ? userLang : 'en';
 
-    window.location.href = `/Spectra/${locale}`;
+    window.location.href = `/Spectra-HP/${locale}`;
   }, []);
 
   return (
