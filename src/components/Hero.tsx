@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-600/30 rounded-full blur-3xl animate-pulse" />
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-600/30 rounded-full blur-3xl animate-pulse delay-1000" />
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-20" />
+        <div className="absolute inset-0 bg-[url('/Spectra-HP/grid.svg')] opacity-20" />
       </div>
 
       <div className="absolute top-4 right-4 z-50">
@@ -87,7 +87,7 @@ const Hero = () => {
           {/* Hero Image */}
           <div className="relative group flex justify-center z-20">
             <img
-              src="/herod.png"
+              src="/Spectra-HP/herod.png"
               alt="Spectra Interface"
               className="w-full md:w-[150%] md:max-w-none translate-x-0 md:translate-x-20 object-contain opacity-90 group-hover:opacity-100 transition duration-500"
             />
