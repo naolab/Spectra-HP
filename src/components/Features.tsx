@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Monitor, Cpu, Layers, Zap } from 'lucide-react';
 import { useTranslations } from 'next-intl';
