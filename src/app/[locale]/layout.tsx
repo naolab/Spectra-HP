@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'Spectra',
     images: [
       {
-        url: '/Spectra-HP/og-image.png',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Spectra - AI Screen Sharing Interface',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Spectra - AI Screen Sharing Interface",
     description: "The bridge between your screen and AI Agents. See. Select. Solve.",
-    images: ['/Spectra-HP/og-image.png'],
+    images: ['/og-image.png'],
   },
 };
 
