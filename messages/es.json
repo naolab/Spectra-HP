@@ -2,50 +2,50 @@
     "Hero": {
         "badge": "Disponible para macOS",
         "title": "Spectra",
-        "subtitle": "El puente entre tu pantalla y los Agentes de IA.",
-        "tagline": "Ver. Seleccionar. Resolver.",
+        "subtitle": "Compartir pantalla con IA.",
+        "tagline": "Solo di \"mira mi pantalla\" — y la IA la ve.",
         "download": "Descargar para macOS",
         "github": "Ver en GitHub",
         "supports": "Soporta:",
         "mcpActive": "Servidor MCP Activo"
     },
     "Features": {
-        "title": "Potenciando la Próxima Generación de IA",
-        "subtitle": "Spectra proporciona el contexto visual que tus agentes de IA necesitan para entender e interactuar con tu flujo de trabajo.",
+        "title": "Dale ojos a la IA",
+        "subtitle": "Sin capturas manuales. Sin copiar y pegar. La IA ve exactamente lo que tú ves, en tiempo real.",
         "gui": {
-            "title": "Interfaz Intuitiva",
-            "description": "Interfaz familiar para seleccionar ventanas y pantallas, optimizada para IA."
+            "title": "Un clic para compartir",
+            "description": "Selecciona qué ventana o pantalla compartir con la IA, igual que en una videollamada."
         },
         "mcp": {
-            "title": "Integración de Servidor MCP",
-            "description": "Se conecta perfectamente con clientes compatibles con Model Context Protocol. Tu IA ve lo que tú ves."
+            "title": "Integración perfecta",
+            "description": "Funciona con herramientas de IA compatibles con MCP. Una vez configurado, la IA puede ver tu pantalla cuando quieras."
         },
         "multiClient": {
-            "title": "Soporte Multi-Cliente",
-            "description": "Funciona con Claude, Gemini, Codex y más. Una herramienta para gobernarlos a todos."
+            "title": "Funciona con tu IA",
+            "description": "Claude, Gemini, Codex — usa tu IA favorita. Spectra las conecta todas a tu pantalla."
         },
         "native": {
-            "title": "Nativo de macOS",
-            "description": "Construido específicamente para macOS con una capa de captura Swift de alto rendimiento para baja latencia."
+            "title": "Rápido y nativo",
+            "description": "Construido para macOS con Swift. Captura instantánea, mínima latencia, sin retrasos."
         }
     },
     "HowItWorks": {
-        "title": "Cómo Funciona",
-        "subtitle": "Una tubería perfecta desde tu pantalla hasta el cerebro de la IA.",
+        "title": "Cómo funciona",
+        "subtitle": "Tres simples pasos para que la IA vea tu pantalla.",
         "step1": {
-            "label": "01. SELECCIONAR",
-            "title": "Selección GUI",
-            "description": "Elige ventanas específicas o pantallas completas usando la interfaz basada en Electron."
+            "label": "01. ELEGIR",
+            "title": "Elige qué compartir",
+            "description": "Selecciona una ventana específica o toda tu pantalla desde la interfaz simple."
         },
         "step2": {
-            "label": "02. CAPTURAR",
-            "title": "Servidor MCP",
-            "description": "El servidor Node.js recibe solicitudes y activa la capa de captura Swift."
+            "label": "02. PREGUNTAR",
+            "title": "Habla con tu IA",
+            "description": "Pregunta a tu IA \"mira mi pantalla\" o \"¿qué hay en mi pantalla?\" — simplemente funciona."
         },
         "step3": {
-            "label": "03. ANALIZAR",
-            "title": "Cliente IA",
-            "description": "Claude, Gemini o Codex recibe la imagen y entiende tu contexto."
+            "label": "03. LISTO",
+            "title": "La IA ve y responde",
+            "description": "Tu IA recibe la captura y entiende tu contexto instantáneamente."
         }
     },
     "Footer": {

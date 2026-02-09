@@ -2,50 +2,50 @@
     "Hero": {
         "badge": "适用于 macOS",
         "title": "Spectra",
-        "subtitle": "连接您的屏幕与 AI 代理的桥梁。",
-        "tagline": "看见。选择。解决。",
+        "subtitle": "与 AI 的屏幕共享。",
+        "tagline": "只需说"看看我的屏幕"——AI 就会看到。",
         "download": "下载 macOS 版",
         "github": "在 GitHub 上查看",
         "supports": "支持：",
         "mcpActive": "MCP 服务器活跃"
     },
     "Features": {
-        "title": "赋能下一代 AI",
-        "subtitle": "Spectra 为您的 AI 代理提供理解和交互工作流所需的视觉上下文。",
+        "title": "让 AI 看到你的屏幕",
+        "subtitle": "无需手动截图。无需复制粘贴。AI 实时看到你所看到的一切。",
         "gui": {
-            "title": "直观的界面",
-            "description": "直观的窗口和屏幕选择界面。就像分享屏幕一样简单，专为 AI 优化。"
+            "title": "一键共享",
+            "description": "选择要与 AI 共享的窗口或屏幕，就像视频通话中的屏幕共享一样简单。"
         },
         "mcp": {
-            "title": "MCP 服务器集成",
-            "description": "与 Model Context Protocol 兼容的客户端无缝连接。您的 AI 能看到您所看到的。"
+            "title": "无缝集成",
+            "description": "与 MCP 兼容的 AI 工具配合使用。设置完成后，随时可以让 AI 查看你的屏幕。"
         },
         "multiClient": {
-            "title": "多客户端支持",
-            "description": "支持 Claude, Gemini, Codex 等。一站式解决方案。"
+            "title": "适用于你的 AI",
+            "description": "Claude、Gemini、Codex——使用你喜欢的 AI。Spectra 将它们全部连接到你的屏幕。"
         },
         "native": {
-            "title": "macOS 原生",
-            "description": "专为 macOS 构建，具有高性能 Swift 捕获层，实现低延迟。"
+            "title": "快速原生",
+            "description": "专为 macOS 使用 Swift 构建。即时捕获，最小延迟，无卡顿。"
         }
     },
     "HowItWorks": {
         "title": "工作原理",
-        "subtitle": "从您的屏幕到 AI 大脑的无缝管道。",
+        "subtitle": "三个简单步骤让 AI 看到你的屏幕。",
         "step1": {
             "label": "01. 选择",
-            "title": "GUI 选择",
-            "description": "使用基于 Electron 的界面选择特定窗口或整个显示器。"
+            "title": "选择要共享的内容",
+            "description": "从简单的界面中选择特定窗口或整个屏幕。"
         },
         "step2": {
-            "label": "02. 捕获",
-            "title": "MCP 服务器",
-            "description": "Node.js 服务器接收请求并触发 Swift 捕获层。"
+            "label": "02. 询问",
+            "title": "与 AI 对话",
+            "description": "问 AI"看看我的屏幕"或"我的屏幕上有什么？"——就是这么简单。"
         },
         "step3": {
-            "label": "03. 分析",
-            "title": "AI 客户端",
-            "description": "Claude, Gemini 或 Codex 接收图像并理解您的上下文。"
+            "label": "03. 完成",
+            "title": "AI 看到并回应",
+            "description": "AI 接收截图并立即理解你的上下文。"
         }
     },
     "Footer": {
