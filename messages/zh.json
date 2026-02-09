@@ -3,7 +3,7 @@
         "badge": "适用于 macOS",
         "title": "Spectra",
         "subtitle": "与 AI 的屏幕共享。",
-        "tagline": "只需说"看看我的屏幕"——AI 就会看到。",
+        "tagline": "只需说「看看我的屏幕」——AI 就会看到。",
         "download": "下载 macOS 版",
         "github": "在 GitHub 上查看",
         "supports": "支持：",
@@ -40,7 +40,7 @@
         "step2": {
             "label": "02. 询问",
             "title": "与 AI 对话",
-            "description": "问 AI"看看我的屏幕"或"我的屏幕上有什么？"——就是这么简单。"
+            "description": "问 AI「看看我的屏幕」或「我的屏幕上有什么？」——就是这么简单。"
         },
         "step3": {
             "label": "03. 完成",
