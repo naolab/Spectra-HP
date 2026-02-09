@@ -2,50 +2,50 @@
     "Hero": {
         "badge": "macOS専用",
         "title": "Spectra",
-        "subtitle": "画面とAIエージェントをつなぐ架け橋。",
-        "tagline": "見て、選んで、解決する。",
+        "subtitle": "AIとの画面共有を実現。",
+        "tagline": "「画面見て」と言うだけで、AIがあなたの画面を見てくれる。",
         "download": "macOS版をダウンロード",
         "github": "GitHubで見る",
         "supports": "対応:",
         "mcpActive": "MCPサーバー稼働中"
     },
     "Features": {
-        "title": "次世代AIをパワーアップ",
-        "subtitle": "Spectraは、AIエージェントがあなたのワークフローを理解し対話するために必要な視覚的コンテキストを提供します。",
+        "title": "AIに画面を見せよう",
+        "subtitle": "スクリーンショットを撮る必要なし。AIがあなたの画面をリアルタイムで見てくれます。",
         "gui": {
-            "title": "直感的なGUI",
-            "description": "ウィンドウや画面を選択するための直感的なインターフェース。画面共有するのと同じ感覚で、AIに共有できます。"
+            "title": "ワンクリックで共有",
+            "description": "ビデオ通話で画面共有するのと同じ感覚。共有したいウィンドウや画面を選ぶだけ。"
         },
         "mcp": {
-            "title": "MCPサーバー統合",
-            "description": "Model Context Protocol互換クライアントとシームレスに接続。あなたが見ているものをAIも見ることができます。"
+            "title": "シームレスな連携",
+            "description": "MCP対応のAIツールと連携。一度設定すれば、いつでもAIに画面を見せられます。"
         },
         "multiClient": {
-            "title": "マルチクライアント対応",
-            "description": "Claude, Gemini, Codexなどに対応。これ一つで全てをカバーします。"
+            "title": "お気に入りのAIで",
+            "description": "Claude、Gemini、Codex — 好きなAIで使えます。Spectraがすべてをつなぎます。"
         },
         "native": {
-            "title": "macOSネイティブ",
-            "description": "macOS専用に設計され、高性能なSwiftキャプチャレイヤーにより低遅延を実現しています。"
+            "title": "高速でネイティブ",
+            "description": "macOS向けにSwiftで構築。瞬時にキャプチャ、遅延なし。"
         }
     },
     "HowItWorks": {
-        "title": "仕組み",
-        "subtitle": "あなたの画面からAIの頭脳へ、シームレスなパイプライン。",
+        "title": "使い方",
+        "subtitle": "3ステップでAIに画面を見せる。",
         "step1": {
-            "label": "01. 選択",
-            "title": "GUI選択",
-            "description": "Electronベースのインターフェースを使用して、特定のウィンドウまたはディスプレイ全体を選択します。"
+            "label": "01. 選ぶ",
+            "title": "共有する画面を選択",
+            "description": "シンプルなインターフェースから、特定のウィンドウまたは画面全体を選びます。"
         },
         "step2": {
-            "label": "02. キャプチャ",
-            "title": "MCPサーバー",
-            "description": "Node.jsサーバーがリクエストを受け取り、Swiftキャプチャレイヤーをトリガーします。"
+            "label": "02. 話す",
+            "title": "AIに話しかける",
+            "description": "「画面見て」「今の画面どう思う？」と聞くだけ。それだけで動きます。"
         },
         "step3": {
-            "label": "03. 分析",
-            "title": "AIクライアント",
-            "description": "Claude, Gemini, Codexが画像を受け取り、あなたのコンテキストを理解します。"
+            "label": "03. 完了",
+            "title": "AIが見て答える",
+            "description": "AIがスクリーンショットを受け取り、あなたの状況を即座に理解します。"
         }
     },
     "Footer": {
